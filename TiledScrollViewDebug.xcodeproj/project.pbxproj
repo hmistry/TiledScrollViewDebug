@@ -14,6 +14,19 @@
 		86B841FF153BB56E00C3425C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B841FE153BB56E00C3425C /* main.m */; };
 		86B84202153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B84201153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m */; };
 		86B84205153BB56E00C3425C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B84203153BB56E00C3425C /* MainWindow.xib */; };
+		86B8421A153BB5FB00C3425C /* HorizontalTiledScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8420C153BB5FB00C3425C /* HorizontalTiledScrollView.m */; };
+		86B8421B153BB5FB00C3425C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8420E153BB5FB00C3425C /* MainViewController.m */; };
+		86B8421C153BB5FB00C3425C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B8420F153BB5FB00C3425C /* MainViewController.xib */; };
+		86B8421D153BB5FB00C3425C /* TimeMinute_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84210153BB5FB00C3425C /* TimeMinute_00.png */; };
+		86B8421E153BB5FB00C3425C /* TimeMinute_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84211153BB5FB00C3425C /* TimeMinute_01.png */; };
+		86B8421F153BB5FB00C3425C /* TimeMinute_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84212153BB5FB00C3425C /* TimeMinute_02.png */; };
+		86B84220153BB5FB00C3425C /* TimeMinute_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84213153BB5FB00C3425C /* TimeMinute_03.png */; };
+		86B84221153BB5FB00C3425C /* TimeMinute_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84214153BB5FB00C3425C /* TimeMinute_04.png */; };
+		86B84222153BB5FB00C3425C /* TimeMinute_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84215153BB5FB00C3425C /* TimeMinute_05.png */; };
+		86B84223153BB5FB00C3425C /* TimeMinute_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84216153BB5FB00C3425C /* TimeMinute_06.png */; };
+		86B84224153BB5FB00C3425C /* TimeMinute_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84217153BB5FB00C3425C /* TimeMinute_07.png */; };
+		86B84225153BB5FB00C3425C /* TimeMinute_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84218153BB5FB00C3425C /* TimeMinute_08.png */; };
+		86B84226153BB5FB00C3425C /* TimeMinute_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B84219153BB5FB00C3425C /* TimeMinute_09.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,21 @@
 		86B84200153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledScrollViewDebugAppDelegate.h; sourceTree = "<group>"; };
 		86B84201153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledScrollViewDebugAppDelegate.m; sourceTree = "<group>"; };
 		86B84204153BB56E00C3425C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		86B8420B153BB5FB00C3425C /* HorizontalTiledScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalTiledScrollView.h; sourceTree = "<group>"; };
+		86B8420C153BB5FB00C3425C /* HorizontalTiledScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalTiledScrollView.m; sourceTree = "<group>"; };
+		86B8420D153BB5FB00C3425C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		86B8420E153BB5FB00C3425C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		86B8420F153BB5FB00C3425C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		86B84210153BB5FB00C3425C /* TimeMinute_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_00.png; sourceTree = "<group>"; };
+		86B84211153BB5FB00C3425C /* TimeMinute_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_01.png; sourceTree = "<group>"; };
+		86B84212153BB5FB00C3425C /* TimeMinute_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_02.png; sourceTree = "<group>"; };
+		86B84213153BB5FB00C3425C /* TimeMinute_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_03.png; sourceTree = "<group>"; };
+		86B84214153BB5FB00C3425C /* TimeMinute_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_04.png; sourceTree = "<group>"; };
+		86B84215153BB5FB00C3425C /* TimeMinute_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_05.png; sourceTree = "<group>"; };
+		86B84216153BB5FB00C3425C /* TimeMinute_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_06.png; sourceTree = "<group>"; };
+		86B84217153BB5FB00C3425C /* TimeMinute_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_07.png; sourceTree = "<group>"; };
+		86B84218153BB5FB00C3425C /* TimeMinute_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_08.png; sourceTree = "<group>"; };
+		86B84219153BB5FB00C3425C /* TimeMinute_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeMinute_09.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,21 @@
 				86B84200153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.h */,
 				86B84201153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m */,
 				86B84203153BB56E00C3425C /* MainWindow.xib */,
+				86B8420B153BB5FB00C3425C /* HorizontalTiledScrollView.h */,
+				86B8420C153BB5FB00C3425C /* HorizontalTiledScrollView.m */,
+				86B8420D153BB5FB00C3425C /* MainViewController.h */,
+				86B8420E153BB5FB00C3425C /* MainViewController.m */,
+				86B8420F153BB5FB00C3425C /* MainViewController.xib */,
+				86B84210153BB5FB00C3425C /* TimeMinute_00.png */,
+				86B84211153BB5FB00C3425C /* TimeMinute_01.png */,
+				86B84212153BB5FB00C3425C /* TimeMinute_02.png */,
+				86B84213153BB5FB00C3425C /* TimeMinute_03.png */,
+				86B84214153BB5FB00C3425C /* TimeMinute_04.png */,
+				86B84215153BB5FB00C3425C /* TimeMinute_05.png */,
+				86B84216153BB5FB00C3425C /* TimeMinute_06.png */,
+				86B84217153BB5FB00C3425C /* TimeMinute_07.png */,
+				86B84218153BB5FB00C3425C /* TimeMinute_08.png */,
+				86B84219153BB5FB00C3425C /* TimeMinute_09.png */,
 				86B841F8153BB56E00C3425C /* Supporting Files */,
 			);
 			path = TiledScrollViewDebug;
@@ -142,6 +185,17 @@
 			files = (
 				86B841FC153BB56E00C3425C /* InfoPlist.strings in Resources */,
 				86B84205153BB56E00C3425C /* MainWindow.xib in Resources */,
+				86B8421C153BB5FB00C3425C /* MainViewController.xib in Resources */,
+				86B8421D153BB5FB00C3425C /* TimeMinute_00.png in Resources */,
+				86B8421E153BB5FB00C3425C /* TimeMinute_01.png in Resources */,
+				86B8421F153BB5FB00C3425C /* TimeMinute_02.png in Resources */,
+				86B84220153BB5FB00C3425C /* TimeMinute_03.png in Resources */,
+				86B84221153BB5FB00C3425C /* TimeMinute_04.png in Resources */,
+				86B84222153BB5FB00C3425C /* TimeMinute_05.png in Resources */,
+				86B84223153BB5FB00C3425C /* TimeMinute_06.png in Resources */,
+				86B84224153BB5FB00C3425C /* TimeMinute_07.png in Resources */,
+				86B84225153BB5FB00C3425C /* TimeMinute_08.png in Resources */,
+				86B84226153BB5FB00C3425C /* TimeMinute_09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +208,8 @@
 			files = (
 				86B841FF153BB56E00C3425C /* main.m in Sources */,
 				86B84202153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m in Sources */,
+				86B8421A153BB5FB00C3425C /* HorizontalTiledScrollView.m in Sources */,
+				86B8421B153BB5FB00C3425C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

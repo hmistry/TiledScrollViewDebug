@@ -12,10 +12,16 @@
 
 
 @synthesize window=_window;
+@synthesize mainVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    MainViewController *mvc = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    self.mainVC = mvc;
+    [mvc release];
+    
+    [self.window addSubview:self.mainVC.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -61,6 +67,7 @@
 
 - (void)dealloc
 {
+    [mainVC release];
     [_window release];
     [super dealloc];
 }
