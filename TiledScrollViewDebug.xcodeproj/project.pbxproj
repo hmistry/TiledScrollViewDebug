@@ -21,11 +21,11 @@
 		86B841F1153BB56E00C3425C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86B841F3153BB56E00C3425C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86B841F5153BB56E00C3425C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		86B841F9153BB56E00C3425C /* TiledScrollViewDebug-Info.plist */ = {isa = PBXFileReference; path = "TiledScrollViewDebug-Info.plist"; sourceTree = "<group>"; };
+		86B841F9153BB56E00C3425C /* TiledScrollViewDebug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TiledScrollViewDebug-Info.plist"; sourceTree = "<group>"; };
 		86B841FB153BB56E00C3425C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		86B841FD153BB56E00C3425C /* TiledScrollViewDebug-Prefix.pch */ = {isa = PBXFileReference; path = "TiledScrollViewDebug-Prefix.pch"; sourceTree = "<group>"; };
+		86B841FD153BB56E00C3425C /* TiledScrollViewDebug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TiledScrollViewDebug-Prefix.pch"; sourceTree = "<group>"; };
 		86B841FE153BB56E00C3425C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86B84200153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.h */ = {isa = PBXFileReference; path = TiledScrollViewDebugAppDelegate.h; sourceTree = "<group>"; };
+		86B84200153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledScrollViewDebugAppDelegate.h; sourceTree = "<group>"; };
 		86B84201153BB56E00C3425C /* TiledScrollViewDebugAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledScrollViewDebugAppDelegate.m; sourceTree = "<group>"; };
 		86B84204153BB56E00C3425C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
