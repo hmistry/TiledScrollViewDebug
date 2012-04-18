@@ -163,7 +163,7 @@
     int firstNeededCol = MAX(0, floorf(visibleBounds.origin.x / scaledTileWidth));
     
     // ------------ FIX ---------------
-    // This fix demonstrates the error in the formula that resulted in a extra tile offscreen being generated that gets dropped sometimes when the animation delays the scrollview movement and the scrollview calls the layoutSubviews which removes the extra tile because its not currently displayed on screen.
+    // This fix demonstrates the error in the formula that resulted in a extra tile being generated offscreen that gets dropped sometimes when the animation delays the scrollview movement just long enough so the scrollview calls the layoutSubviews which removes the extra tile because its not currently displayed on screen.
     float adjustment = 0;
     if (self.fix == YES) {
         adjustment = 0.1;
